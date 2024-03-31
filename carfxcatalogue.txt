@@ -1,0 +1,12 @@
+create database carfx;
+use carfx;
+create table catalogue(PID int,PNAME varchar(50),PTYPE varchar(50),QTY int,PRICE float);
+insert into catalogue values(1,"Seat Cover","Bamboo Antracit",15,5000);
+insert into catalogue values(2,"Seat Cover","Decent Camel",15,6000);
+insert into catalogue values(3,"Seat Cover","Style Nimbus",15,7000);
+insert into catalogue values(4,"Seat Cover","Drive Antracit",15,8000);
+insert into catalogue values(5,"Seat Cover","Decent Black",15,9000);
+insert into catalogue values(6,"Dashboard Lights","Orange",15,1200);
+insert into catalogue values(7,"Dashboard Lights","Blue",15,2000);
+insert into catalogue values(8,"Dashboard Lights","Red",15,1300);
+
